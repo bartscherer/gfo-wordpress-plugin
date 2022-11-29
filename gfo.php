@@ -71,7 +71,7 @@ function removeGoogleFontsFromFinalOutput($originalOutput)
         $sanitizedOutput
     );
 
-    return $sanitizedOutput . $replacementURL;
+    return $sanitizedOutput;
 }
 
 /* We add our filtering method above as the final_output filter */
